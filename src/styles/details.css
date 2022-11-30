@@ -1,3 +1,101 @@
-/* .details-container {
-    background-color: red;
-} */
+.back-button {
+  background-color: blue;
+  padding: 5px 20px;
+  color: #fff;
+  border: 1px solid #fff;
+  box-shadow: 0 0 3px red;
+  cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #fff;
+    padding: 5px 20px;
+    color: #000;
+    border: 1px solid #fff;
+    box-shadow: 0 0 3px blue;
+    cursor: pointer;
+}
+
+.back-button:active {
+    background-color: orange;
+    padding: 5px 20px;
+    color: #000;
+    border: 1px solid #fff;
+    box-shadow: 0 0 3px blue;
+    cursor: pointer;
+}
+
+.details-container {
+  padding: 2vh 5vw;
+}
+
+.details-column-data {
+  font-size: 1.5rem;
+  line-height: 35px;
+  max-width: inherit;
+}
+
+.details-column-data:nth-child(1) {
+  color: #fff;
+  border-right: 2px solid red;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.668);
+}
+
+.details-column-data:nth-child(2) {
+  color: aqua;
+  border-bottom: 2px solid grey;
+  max-width: 30%;
+}
+
+.detail-mapped-container {
+  display: grid;
+}
+
+.details-column-data-body {
+  border-radius: 8px;
+  box-shadow:
+    21px 21px 48px #000,
+    -21px -21px 38px #000;
+  max-width: fit-content;
+  background:
+    linear-gradient(
+      to top,
+      hsl(330, 47.54%, 23.92%) 0%,
+      hsl(310.71, 36.53%, 25.17%) 9.2%,
+      hsl(284.68, 32.56%, 28.64%) 17.2%,
+      hsl(265.37, 32.81%, 33.53%) 24.2%,
+      hsl(251.14, 32.97%, 38.17%) 30.5%,
+      hsl(240.05, 33.07%, 42.54%) 36.1%,
+      hsl(232.19, 40.09%, 44.32%) 41.4%,
+      hsl(227.01, 46.65%, 45.8%) 46.4%,
+      hsl(223.28, 52.85%, 46.98%) 51.4%,
+      hsl(220.43, 58.83%, 47.86%) 56.4%,
+      hsl(218.15, 64.68%, 48.42%) 61.9%,
+      hsl(216.25, 70.52%, 48.66%) 67.8%,
+      hsl(214.61, 76.45%, 48.56%) 74.3%,
+      hsl(213.15, 82.63%, 48.08%) 81.8%,
+      hsl(211.79, 89.33%, 47.19%) 90.3%,
+      hsl(210, 100%, 45.1%) 100%
+    );
+}
+
+.coin-rank-container {
+    display: flex;
+    margin: -20px 0 0 0;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-details-key {
+    color: #fff;
+}
+
+.header-details-value {
+    color: #fff;
+    background-color: rgba(255, 0, 0, 0.579);
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1.8rem;
+}
