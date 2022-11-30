@@ -10,7 +10,7 @@ export default function Details() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getCoins());
-  }, []);
+  }, [dispatch]);
   const filteredCoin = coins.filter((coin) => (coin.id === params.id));
   return (
     <div className="details-container">
