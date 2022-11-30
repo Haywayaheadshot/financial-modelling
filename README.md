@@ -48,7 +48,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://tubular-piroshki-4c8fda.netlify.app/)
+- [Live Demo Link](https://fluffy-sherbet-58b340.netlify.app/)
 
 <!-- GETTING STARTED -->
 
