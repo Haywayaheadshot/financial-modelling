@@ -1,9 +1,10 @@
 import React from 'react';
+import HomeThumbnail from '../components/HomeThumbnail';
 
 export default function Home() {
   return (
     <div>
-      <h1>Home</h1>
+      <HomeThumbnail />
     </div>
   );
 }

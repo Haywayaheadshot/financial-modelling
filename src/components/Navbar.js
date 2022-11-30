@@ -9,8 +9,12 @@ export default function Navbar() {
   return (
     <div className="nav-container">
       <section className="logo-container">
-        <img className="logo" src={logo} alt="Webapage Logo" />
-        <h1>Stocks Info</h1>
+        <NavLink className="desktop-ul-li" to="/">
+          <img className="logo" src={logo} alt="Webapage Logo" />
+        </NavLink>
+        <NavLink className="desktop-ul-li" to="/:id">
+          <h1 className="app-name">Coins Info</h1>
+        </NavLink>
       </section>
       <section className="for-phone">
         <Hamburger
@@ -30,11 +34,6 @@ export default function Navbar() {
                 </NavLink>
               </li>
               <li>
-                <NavLink className="nav-popUp-li" onClick={() => isClosed(false)} to="/details" activeclassname="active-link">
-                  Details
-                </NavLink>
-              </li>
-              <li>
                 <NavLink className="nav-popUp-li" onClick={() => isClosed(false)} to="/contact" activeclassname="active-link">
                   Contact
                 </NavLink>
@@ -47,17 +46,12 @@ export default function Navbar() {
       <section className="for-desktop">
         <ul className="desktop-ul">
           <li>
-            <NavLink className="desktop-ul-li" onClick={() => isClosed(false)} to="/" activeclassname="active-link">
+            <NavLink className="desktop-ul-li" to="/" activeclassname="active-link">
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink className="desktop-ul-li" onClick={() => isClosed(false)} to="/details" activeclassname="active-link">
-              Details
-            </NavLink>
-          </li>
-          <li>
-            <NavLink className="desktop-ul-li" onClick={() => isClosed(false)} to="/contact" activeclassname="active-link">
+            <NavLink className="desktop-ul-li" to="/contact" activeclassname="active-link">
               Contact
             </NavLink>
           </li>

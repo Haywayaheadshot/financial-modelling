@@ -1,0 +1,84 @@
+.home-coin-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 2vh 0;
+  min-height: 70vh;
+  row-gap: 2px;
+  column-gap: 2px;
+
+  /* background-color: red;
+  margin: 0;
+  padding: 0;
+  text-decoration: none; */
+}
+
+.home-search-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-btn {
+  min-width: 100%;
+}
+
+.coin-button-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.price-tag {
+  color: #fff;
+}
+
+.actual-price {
+  color: aqua;
+}
+
+.header-price {
+  color: rgba(255, 0, 0, 0.661);
+}
+
+.click-for-more {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.coin-logo {
+  max-width: 5em;
+}
+
+.coin-button {
+  background-color: rgb(93, 141, 180);
+  min-width: 100%;
+}
+
+@media (min-width: 760px) {
+  .home-coin-container {
+    padding: 5vh 8vw;
+    min-height: 60vh;
+  }
+
+  .home-search-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .search-btn {
+    min-width: 79vw;
+  }
+
+  .coin-button-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2vh 5vw;
+  }
+}

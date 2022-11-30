@@ -8,6 +8,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: hsl(219, 45%, 48%);
+}
+
+.app-name {
+  text-decoration: none;
 }
 
 .logo-container {
