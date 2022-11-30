@@ -12,13 +12,13 @@ export default function Navbar() {
         <NavLink className="desktop-ul-li" to="/">
           <img className="logo" src={logo} alt="Webapage Logo" />
         </NavLink>
-        <NavLink className="desktop-ul-li" to="/:id">
+        <NavLink className="desktop-ul-li" to="/contact">
           <h1 className="app-name">Coins Info</h1>
         </NavLink>
       </section>
       <section className="for-phone">
         <Hamburger
-          color="#0290ff"
+          color="aqua"
           toggled={isOpen}
           toggle={isClosed}
           duration={0.8}
