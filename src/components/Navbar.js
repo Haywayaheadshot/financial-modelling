@@ -13,7 +13,7 @@ export default function Navbar() {
           <img className="logo" src={logo} alt="Webapage Logo" />
         </NavLink>
         <NavLink className="desktop-ul-li" to="/details">
-          <h1>Stocks Info</h1>
+          <h1 className="app-name">Coins Info</h1>
         </NavLink>
       </section>
       <section className="for-phone">
