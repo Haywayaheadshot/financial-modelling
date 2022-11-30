@@ -10,6 +10,10 @@
   align-items: center;
 }
 
+.app-name {
+  text-decoration: none;
+}
+
 .logo-container {
   display: flex;
   gap: 10px;
