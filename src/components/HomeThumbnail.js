@@ -12,7 +12,6 @@ export default function HomeThumbnail() {
   }, [dispatch]);
 
   return (
-
     <div className="home-coin-container">
       {coins.map((coin) => (
         <NavLink key={coin.id} to={`/${coin.id}`}>
@@ -33,16 +32,6 @@ export default function HomeThumbnail() {
                 <br />
                 <b className="actual-price">{coin.priceBtc}</b>
               </h3>
-              {/* <h3 className="price-tag">
-              Market Cap:
-              <br />
-              <b className="actual-price">{marketCap}</b>
-            </h3>
-            <h3 className="price-tag">
-              Available Supply:
-              <br />
-              <b className="actual-price">{availableSupply}</b>
-            </h3> */}
             </section>
             <p className="click-for-more">Click For More Info</p>
           </button>
