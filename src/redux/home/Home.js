@@ -10,19 +10,8 @@ const getCoinsApi = 'https://api.coinstats.app/public/v1/coins?skip=0&limit=5&cu
 // action creators for display, join and leave missions
 export const getCoins = createAsyncThunk(
   GET_COINS, () => axios.get(getCoinsApi).then((res) => {
-    const coins = res.data;
-    const data = Object.keys(coins).map((id) => ({
-      id: coins[id][0].id,
-      name: coins[id][0].name,
-      symbol: coins[id][0].symbol,
-      price: coins[id][0].price,
-      priceBtc: coins[id][0].priceBtc,
-      marketCap: coins[id][0].marketCap,
-      availableSupply: coins[id][0].availableSupply,
-      icon: coins[id][0].icon,
-      // ...coins,
-    }));
-    return data;
+    const { coins } = res.data;
+    return coins;
   }),
 );
 
