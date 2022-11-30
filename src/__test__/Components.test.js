@@ -30,7 +30,7 @@ describe('Testing Home page', () => {
   //       </Router>
   //     </Provider>,
   //   );
-  //   expect(screen.getByText('Bitcoin')).toBeInTheDocument();
+  //   expect(screen.getByText('BTC')).toBeInTheDocument();
   // });
 
   it('Should have text Ethereum', () => {
