@@ -1,0 +1,20 @@
+.contact-header,
+.contact-thanks-note,
+.contact-authors {
+    color: #fff;
+}
+
+.contact-thanks-note {
+    padding: 0 5vw;
+}
+
+.contact-authors h1 {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 760px) {
+    .contact-thanks-note {
+        padding: 0 20vw;
+    }
+}
