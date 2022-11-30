@@ -8,21 +8,21 @@
 }
 
 .back-button:hover {
-    background-color: #fff;
-    padding: 5px 20px;
-    color: #000;
-    border: 1px solid #fff;
-    box-shadow: 0 0 3px blue;
-    cursor: pointer;
+  background-color: #fff;
+  padding: 5px 20px;
+  color: #000;
+  border: 1px solid #fff;
+  box-shadow: 0 0 3px blue;
+  cursor: pointer;
 }
 
 .back-button:active {
-    background-color: orange;
-    padding: 5px 20px;
-    color: #000;
-    border: 1px solid #fff;
-    box-shadow: 0 0 3px blue;
-    cursor: pointer;
+  background-color: orange;
+  padding: 5px 20px;
+  color: #000;
+  border: 1px solid #fff;
+  box-shadow: 0 0 3px blue;
+  cursor: pointer;
 }
 
 .details-container {
@@ -56,7 +56,7 @@
   box-shadow:
     21px 21px 48px #000,
     -21px -21px 38px #000;
-  max-width: fit-content;
+  width: fit-content;
   background:
     linear-gradient(
       to top,
@@ -80,22 +80,22 @@
 }
 
 .coin-rank-container {
-    display: flex;
-    margin: -20px 0 0 0;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  margin: -20px 0 0 0;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-details-key {
-    color: #fff;
+  color: #fff;
 }
 
 .header-details-value {
-    color: #fff;
-    background-color: rgba(255, 0, 0, 0.579);
-    padding: 10px 15px;
-    border-radius: 5px;
-    font-size: 1.8rem;
+  color: #fff;
+  background-color: rgba(255, 0, 0, 0.579);
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1.8rem;
 }
