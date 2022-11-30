@@ -9,7 +9,6 @@ export default function Home() {
   useEffect(() => {
     dispatch(getCoins());
   }, [dispatch]);
-  console.log(coins);
 
   const openMoreHandler = () => {
     console.log('navigate to details with this id');
