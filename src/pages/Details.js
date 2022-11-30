@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { NavLink, useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-// import PropTypes from 'prop-types';
 import { getCoins } from '../redux/home/Home';
 
 export default function Details() {
@@ -9,16 +8,15 @@ export default function Details() {
   const coins = useSelector((state) => state.coins);
   const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(getCoins(params));
+    dispatch(getCoins());
   }, []);
-  console.log(params);
-  console.log(coins.filter((coin) => (coin === params)));
+  const filteredCoin = coins.filter((coin) => (coin.id === params.id));
   return (
     <div>
       <NavLink to="../">
         <button type="button">Back</button>
       </NavLink>
-      { coins.map((coin) => (
+      { filteredCoin.map((coin) => (
         <section key={coin.id} id={coin.id}>
           <div>
             <h1>
@@ -30,7 +28,7 @@ export default function Details() {
           <table>
             <tbody>
               <tr>
-                <td className="column-data">Price Against USD</td>
+                <td className="column-data">{`Total Supply: ${coin.totalSupply}`}</td>
                 <td className="column-data">102220</td>
               </tr>
               <tr>
@@ -72,12 +70,3 @@ export default function Details() {
     </div>
   );
 }
-
-// Details.propTypes = {
-//   // id: PropTypes.string.isRequired,
-//   name: PropTypes.string.isRequired,
-//   // symbol: PropTypes.string.isRequired,
-//   // price: PropTypes.number.isRequired,
-//   // priceBtc: PropTypes.number.isRequired,
-//   // icon: PropTypes.string.isRequired,
-// };
