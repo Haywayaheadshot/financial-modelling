@@ -2,8 +2,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  padding: 2vh 5vw;
+  padding: 2vh 0;
   min-height: 70vh;
+  row-gap: 2px;
+  column-gap: 2px;
 }
 
 .home-search-section {
@@ -39,6 +41,10 @@
 .click-for-more {
   color: #fff;
   border: 1px solid #fff;
+}
+
+.coin-button {
+  background-color: rgb(93, 141, 180);
 }
 
 @media (min-width: 760px) {
