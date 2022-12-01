@@ -52,6 +52,15 @@
   box-shadow: 0 0 5px #000;
 }
 
+.search-input {
+  min-width: 80%;
+  background-color: aqua;
+  height: 20px;
+  margin-top: 20px;
+  padding: 0 2vw;
+  color: #000;
+}
+
 @media (min-width: 760px) {
   .home-coin-container {
     padding: 5vh 8vw;
@@ -75,5 +84,14 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 2vh 5vw;
+  }
+
+  .search-input {
+    min-width: 50%;
+    background-color: aqua;
+    height: 20px;
+    margin-top: 20px;
+    padding: 0 2vw;
+    color: #000;
   }
 }
