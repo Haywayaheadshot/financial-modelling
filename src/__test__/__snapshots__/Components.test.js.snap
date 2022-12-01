@@ -222,17 +222,33 @@ Object {
   "baseElement": <body>
     <div>
       <div>
-        <div
-          class="home-coin-container"
-        />
+        <div>
+          <div>
+            <input
+              class="search-input"
+              placeholder="Find a title ..."
+            />
+          </div>
+          <div
+            class="home-coin-container"
+          />
+        </div>
       </div>
     </div>
   </body>,
   "container": <div>
     <div>
-      <div
-        class="home-coin-container"
-      />
+      <div>
+        <div>
+          <input
+            class="search-input"
+            placeholder="Find a title ..."
+          />
+        </div>
+        <div
+          class="home-coin-container"
+        />
+      </div>
     </div>
   </div>,
   "debug": [Function],
