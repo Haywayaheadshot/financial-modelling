@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import { StrictMode } from 'react';
 import { Provider } from 'react-redux';
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -20,28 +20,6 @@ describe('Testing Home page', () => {
       </StrictMode>,
     );
     expect(home).toMatchSnapshot();
-  });
-
-  // it('Should have text Bitcoin', () => {
-  //   render(
-  //     <Provider store={store}>
-  //       <Router>
-  //         <Home />
-  //       </Router>
-  //     </Provider>,
-  //   );
-  //   expect(screen.getByText('BTC')).toBeInTheDocument();
-  // });
-
-  it('Should have text Ethereum', () => {
-    render(
-      <Provider store={store}>
-        <Router>
-          <Home />
-        </Router>
-      </Provider>,
-    );
-    expect(screen.getByText('Ethereum')).toBeInTheDocument();
   });
 });
 
