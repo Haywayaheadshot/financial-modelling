@@ -87,7 +87,7 @@ To get a local copy up and running, follow these steps.
 I would like to thank,
 - [Original Author Behance Link](https://www.behance.net/sakwadesignstudio)
 - Thanks to Microverse for the knowledge impacted
-- Thanks to my colleagues, Diego Garcia and Jose Zepada
+- Thanks to my colleagues, [Diego Garcia](https://github.com/taldr27) and [Jose Zepada](https://github.com/J2ZROMERO)
 
 <!-- AUTHORS -->
 
