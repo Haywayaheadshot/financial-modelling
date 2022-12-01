@@ -50,7 +50,7 @@
 
 - [Live Demo Link](https://fluffy-sherbet-58b340.netlify.app/)
 
-- ![Live Video Link](https://www.loom.com/share/f09c3fe471e746a69edb4bb6a5bc38ba)
+- [Live Video Link](https://www.loom.com/share/f09c3fe471e746a69edb4bb6a5bc38ba)
 
 <!-- GETTING STARTED -->
 
